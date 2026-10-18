@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["4YZHCN2XQC.com.kentbrady.Recipes"],
+        "components": [
+          { "/": "/recipe/*", "comment": "Recipe page: /recipe/<id>" },
+          { "/": "/", "?": { "recipe": "?*" }, "comment": "Older recipe links: /?recipe=<id>" }
+        ]
+      }
+    ]
+  }
+}
